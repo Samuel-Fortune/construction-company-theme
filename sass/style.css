@@ -1,0 +1,112 @@
+/*!
+Theme Name: construction-company-theme
+Theme URI: http://underscores.me/
+Author: Fortune
+Author URI: https://github.com/Samuel-Fortune
+Description: construction-company-theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: construction-company-theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+construction-company-theme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Custom
+	- Base
+	- Layout
+	- Module
+	- State
+
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Custom Style
+--------------------------------------------------------------*/
+/* Import Custom Styles
+--------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #FFF;
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  color: #000;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.gap-74 {
+  gap: calc(64px + 10px);
+}
+
+.gap-77 {
+  gap: calc(64px + 13px);
+}
+
+.gap-50 {
+  gap: calc(36px + 14px);
+}
+
+/*
+0-640px: phone
+640-768px: Tablet portrait
+768 - 1024px: Tablet landscape
+1024 - px:  small desktop styles
+$breakpoint arguments choices:
+-sm
+-md
+-lg
+-xl
+1em = 16px
+*//*# sourceMappingURL=style.css.map */
