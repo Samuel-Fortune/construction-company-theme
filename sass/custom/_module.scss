@@ -1,1 +1,70 @@
-git remote add origin 'https://github.com/Samuel-Fortune/construction-company-theme.git'
+.menu-toggle {
+	display: none;
+
+	@include respond(sm) {
+		display: block;
+	}
+}
+
+.h-190 {
+	height: 190px !important;
+}
+
+.h-40 {
+	height: 40px !important;
+}
+
+.back-btn {
+	color: var(--neutral-white, #FFF);
+	text-align: center;
+
+	/* Body/default */
+	font-family: Work Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+}
+
+.site {
+
+	.site-header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 1440px;
+		margin: auto;
+		justify-content: space-between;
+
+		.main-navigation {
+
+			.menu-menu-1-container {
+
+				.nav-menu {
+					display: flex;
+					flex-direction: row;
+					list-style: none;
+					justify-content: space-between;
+					width: 577px;
+
+					.menu-item a {
+						text-decoration: none;
+						color: var(--neutral-900, #14171F);
+
+						/* Body/default */
+						font-family: Work Sans;
+						font-size: 18px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+			}
+		}
+	}
+}

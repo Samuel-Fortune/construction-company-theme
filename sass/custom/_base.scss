@@ -18,14 +18,12 @@ $header-color: #333;
 $footer-text-color: #828282;
 $main-bg-color:#FFF;
 
-;
-
 body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	background: $main-bg-color;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	width: 100%;
 	color: $primary-color;
 }
@@ -129,13 +127,12 @@ $breakpoint arguments choices:
 		//1280px
 	}
 
-	/*
 	@if $breakpoint ==2xl {
+
 		@media only screen and (max-width: 96em) {
 			@content;
 		}
 
 		//1536px
 	}
-	*/
 }
