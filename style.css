@@ -132,7 +132,7 @@ $breakpoint arguments choices:
 	color: var(--neutral-white, #FFF);
 	text-align: center;
 	/* Body/default */
-	font-family: Work Sans;
+	font-family: "Work Sans";
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
@@ -165,11 +165,17 @@ $breakpoint arguments choices:
 	text-decoration: none;
 	color: var(--neutral-900, #14171F);
 	/* Body/default */
-	font-family: Work Sans;
+	font-family: "Work Sans";
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+@media only screen and (max-width: 48em) {
+	.site .site-header .site-header {
+		width: 1261px !important;
+	}
 }
 
 /*# sourceMappingURL=style.css.map */

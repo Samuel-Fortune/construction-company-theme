@@ -19,7 +19,7 @@
 	text-align: center;
 
 	/* Body/default */
-	font-family: Work Sans;
+	font-family: "Work Sans";
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
@@ -57,13 +57,20 @@
 						color: var(--neutral-900, #14171F);
 
 						/* Body/default */
-						font-family: Work Sans;
+						font-family: "Work Sans";
 						font-size: 18px;
 						font-style: normal;
 						font-weight: 400;
 						line-height: normal;
 					}
 				}
+			}
+		}
+
+		@include respond(md) {
+
+			.site-header {
+				width: 1261px !important;
 			}
 		}
 	}
