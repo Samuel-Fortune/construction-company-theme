@@ -128,6 +128,10 @@ $breakpoint arguments choices:
 	height: 40px !important;
 }
 
+.margin-auto {
+	margin: auto;
+}
+
 .back-btn {
 	color: var(--neutral-white, #FFF);
 	text-align: center;
@@ -145,11 +149,11 @@ $breakpoint arguments choices:
 }
 
 .site .site-header {
+	width: 1261px !important;
+	margin: auto;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 1440px;
-	margin: auto;
 	justify-content: space-between;
 }
 
@@ -173,8 +177,8 @@ $breakpoint arguments choices:
 }
 
 @media only screen and (max-width: 48em) {
-	.site .site-header .site-header {
-		width: 1261px !important;
+	.site .site-header {
+		display: none;
 	}
 }
 
